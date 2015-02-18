@@ -1,0 +1,14 @@
+{
+  "name": "rilwmce",
+  "version": "0.1",
+  "description": "Replaces imgur links with a mirror",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "<all_urls>","webRequest","webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": true
+  }
+}
